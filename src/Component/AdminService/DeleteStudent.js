@@ -38,7 +38,8 @@ export default function DeleteStudent()
         <>
         <AdminDashboard/>
         <div className="DeleteStudent" >
-        <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:140,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
+        <h4 style={{paddingTop:100,paddingRight:120,paddingLeft:400,color:"ButtonText"}}>DELETE STUDENT DETAILS</h4>
+        <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:50,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
           <div class="card" >
             <div class="card-action blue lighten-4 black-text">
         <form onSubmit={handleFormDetailSubmit}>

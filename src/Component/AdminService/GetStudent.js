@@ -101,7 +101,8 @@ const handleFormCancel=()=>{
         <>
         <AdminDashboard/>
         <div className="AddStudent" >
-  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:90,paddingRight:300,paddingLeft:300,paddingBottom:20}} >
+        <h4 style={{paddingTop:90,paddingRight:200,paddingLeft:400,color:"ButtonText"}}> STUDENT DETAILS</h4>
+  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:50,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
     <div class="card" >
       
       <div class="card-action blue lighten-4 black-text">

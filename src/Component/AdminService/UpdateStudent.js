@@ -49,7 +49,8 @@ export default function UpdateStudent()
         <>
         <AdminDashboard/>
         <div className="UpdateStudent" >
-  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:80,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
+        <h4 style={{paddingTop:100,paddingRight:120,paddingLeft:380,color:"ButtonText"}}>UPDATE STUDENT DETAILS</h4>
+  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:20,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
     <div class="card" >
       
       <div class="card-action blue lighten-4 black-text">

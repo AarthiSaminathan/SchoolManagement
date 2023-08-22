@@ -51,7 +51,8 @@ export default function AddStudent()
         <>
         <AdminDashboard/>
        <div className="AddStudent" >
-  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:80,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
+        <h4 style={{paddingTop:90,paddingRight:120,paddingLeft:400,color:"ButtonText"}}>ADD STUDENT DETAILS</h4>
+  <div class="col s12 m8 l4 offset-m2 offset-l4" style={{paddingTop:40,paddingRight:100,paddingLeft:300,paddingBottom:100}} >
     <div class="card" >
       
       <div class="card-action blue lighten-4 black-text">

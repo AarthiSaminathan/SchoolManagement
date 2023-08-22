@@ -66,12 +66,13 @@ return (
     <ul class="collapsible" data-collapsible="accordion">
       <li id="dash_users">
         <div id="dash_users_header" class="collapsible-header "><i class="material-icons">perm_identity</i>
-            <b>Student</b></div>
+            <b>Student</b>
+            </div>
         <div id="dash_users_body" class="collapsible-body-fixed">
            <ul class="collapsible collapsible-accordion">
               {menuData.map((menu)=>(
                 <li key={menu.menu}>
-                  <button onClick={()=>{
+                  <button className="waves-effect waves-teal btn-flat"   onClick={()=>{
                     if(menu.menu==="Add Student"){
                       handleSubMainMenuClick(menu.menu);
                       }
@@ -82,12 +83,12 @@ return (
                   }>
                     &nbsp;&nbsp;&nbsp;&nbsp;<img src={window.atob(menu.iconUrl)} width="25" height="25" />
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <span>{menu.menu}</span>
-                  </button>
-                {menu.menu==="Add Student" && activeSubMenu===menu.menu && (
+                    <span style={{fontWeight:"bold"}}>{menu.menu}</span>
+                  </button> 
+                {menu.menu==="Add Student" && activeSubMenu===menu.menu && ( 
                   <ul>
                     {subMenuData.map((submenu)=>
-                    <li key={submenu.name}><Link to={submenu.url}>{submenu.name}</Link>
+                     <li key={submenu.name}> <Link to={submenu.url}> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;{submenu.name}</Link>
 
                     </li>
                     )}

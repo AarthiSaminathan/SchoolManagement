@@ -27,6 +27,67 @@ nav {
 
  }
 
+ @media (min-width:601px) and (max-width:992px) {
+  nav {
+    padding-right: 100px;
+    
+  }
+  
+  nav ul li,
+  nav ul li a,
+  .brand-logo {
+    size: 8rem;
+    line-height: 130px;
+    padding-right: 120px;
+  }
+
+  #school{
+    color: black;
+    padding-left: 80px;
+  }
+  #slide-out{
+    color:blue ;
+  }
+  
+ h4 {
+    width: 940px;
+    padding-right: 600px;
+    padding-top: -250px;
+    line-height: 100px;
+
+ }
+ }
+@media (min-width:993px) {
+  nav {
+    padding-right: 100px;
+    
+  }
+  
+  nav ul li,
+  nav ul li a,
+  .brand-logo {
+    size: 8rem;
+    line-height: 130px;
+    padding-right: 120px;
+  }
+
+  #school{
+    color: black;
+    padding-left: 80px;
+  }
+  #slide-out{
+    color:blue ;
+  }
+  
+ h4 {
+    width: 940px;
+    padding-right: 600px;
+    padding-top: -250px;
+    line-height: 100px;
+
+ }
+  
+}
   
   
   
